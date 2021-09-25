@@ -1,0 +1,628 @@
+/*NavBar*/
+.navbar{
+    width: 95%;
+    background-color: rgba(0, 0, 0);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:initial;
+    padding-right: 5%;
+    padding-left: 2px;
+    /* padding-right: 20%; */
+}
+.icono{
+    width: 40px;
+}
+.element{
+    /* text-decoration-style: solid ; */
+    /* offset-x | offset-y | blur-radius | color */
+    font-size: 18px;
+    text-shadow: 1px 1px 0.5px rgb(5, 243, 25);
+    margin: 5px;
+}
+
+/* home */
+.home{
+    background-image: url('./countries3.png');
+    /* background-color:rgb(110, 110, 110) ; */
+    background-size:cover; 
+    height: 850px;
+    /* width: 800px; */
+    margin: 10px;
+    
+}
+.title{
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(47, 46, 122, 0.986);
+    /* text-shadow: 5px 5px 10px rgb(215, 5, 243); */
+
+}
+
+
+/* all countries  - world */
+.pagecountries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    height: 780px;
+}
+.pageactivities{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 800px;
+    align-items: center;
+
+}
+.cajapaises{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(41, 41, 41);
+}
+
+.titulos{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgb(93, 93, 93);
+    text-align: left;
+    /* padding: 2px; */
+    align-items:center;
+}
+.titulosactivities{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgb(93, 93, 93);
+    text-align: left;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    align-content: center;
+}
+.titulo1{
+    display: flex;
+    width: 110px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(150, 150, 150);
+    align-items: center;
+    height: 30px;
+    background-color: rgb(3, 78, 3);
+    color: white;
+}
+
+.titulo2{
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(150, 150, 150);
+    align-items: center;
+    height: 30px;
+    background-color: rgb(3, 78, 3);
+    color: white;
+}
+
+.titulo3{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(150, 150, 150);
+    align-items: center;
+    height: 30px;
+    padding-left: 10px;
+    background-color: rgb(3, 78, 3);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.arrowup{
+    width: 12px;
+    padding: 5px;
+}
+.arrowdown{
+    width: 12px;
+    padding: 5px;
+}
+
+.titulo4{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(150, 150, 150);
+    align-items: center;
+    height: 30px;
+    background-color: rgb(3, 78, 3);
+    color: white;
+}
+
+.titulocifras{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(150, 150, 150);
+    align-items: center;
+    height: 30px;
+    padding-right: 5px;    
+    background-color: rgb(3, 78, 3);
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+}
+
+.containerflag{
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: dotted;
+    border-color: rgb(150, 150, 150);;
+    border-width: 0.1px;
+    background-color: rgb(221, 217, 217);
+}
+
+
+.flag{
+    /* height: 25px; */
+    width: 25px;
+    /* margin: 2px; */
+    border-style:groove;
+    border-color: black;
+    border-width: 1px;
+    /* background-color: black; */
+}
+.flag:hover{
+    display: flex;
+    /* height: 70px; */
+    width:8%;
+    /* height: 20%; */
+    position: absolute;
+    /* border-style: hidden; */
+}
+
+.alphas{
+    width: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-style: dotted;
+    border-color: rgb(150, 150, 150);;
+    border-width: 0.1px;
+    background-color: rgb(221, 217, 217);
+}
+
+.name{
+    width: 400px;
+    padding-left: 10px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    border-style: dotted;
+    border-color: rgb(150, 150, 150);;
+    border-width: 0.1px;  
+    background-color: rgb(221, 217, 217);
+    color: black;
+}
+.region{
+    width: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-style: dotted;
+    border-color: rgb(150, 150, 150);;
+    border-width: 0.1px;
+    background-color: rgb(221, 217, 217);
+    color: black;
+}
+.csscifras{
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-style: dotted;
+    border-color: rgb(150, 150, 150);;
+    border-width: 0.1px;
+    padding-right: 5px;
+    background-color: rgb(221, 217, 217);
+    color: black;    
+}
+
+
+.csspage{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: dotted;
+    border-color: rgb(150, 150, 150);;
+    border-width: 0.1px;
+    padding-right: 5px;
+    background-color: rgb(221, 217, 217);
+
+}
+
+.formCountries{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: black;
+    width: 80%;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+    /* padding: 10px; */
+    /* align-content: space-between; */
+}
+
+.cajita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 5px;
+}
+
+/* Activities */
+
+.titulo5{
+    display: flex;
+    width: 150px;
+    text-align: left;
+}
+
+.activ{
+    width: 150px;
+    align-content:initial;
+    /* border-style: solid; */
+} 
+
+/* Details */
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    /* justify-items: center; */
+    justify-content: center;
+    /* align-content: center; */
+    /* text-align: left; */
+    /* background-color: darkgreen; */
+    width: 100%;
+    font-size: 14px;
+    height: 800px;
+    background-color: black;
+    color: white
+}
+.flag2{
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+    border-style:groove;
+    border-color: black;
+    border-width: 1px;
+}
+
+/* Card Activity */
+.cardActivity{
+    border-color: darkcyan;
+    border-style: double;
+    padding: 10px;
+    margin: 10px;
+    /* background-color: darkcyan; */
+    width: 250px;
+    display: flex;
+    flex-direction: column;   
+}
+.simbol{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    /* background-color: darkgoldenrod; */
+}
+.bloque{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: left;
+    width: 210px;
+    padding: 2px;
+    margin: 2px;
+    margin-left: 5px;
+    padding-left: 8px;
+    /* border-style: solid; */
+    /* border-color: darkblue; */
+    /* background-color:brown ; */
+}
+.onecard{
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 1px;
+    margin: 5px;
+}
+
+
+
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 15%;
+    /* padding: 1%; */
+}
+.milabel{
+    /* display:inline-flex; */
+    width: 95%;
+    text-align: center;
+    padding: 5px;
+    /* margin-left: 5px; */
+    border-radius: 10px;
+    background-color: rgb(88, 88, 88);
+}
+
+.controllers{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 85%;
+    margin-left: 10px;
+    align-items: flex-start;
+}
+
+.groupbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* align-content: center; */
+    /* background-color: blue; */
+}
+
+.mybutton{
+    font-weight: bold;
+    width: 80px;
+    /* margin: 10px; */
+    height: 25px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgba(107, 255, 21, 0.863);
+}
+
+.mybutton2{
+    font-weight: bold;
+    align-self: left;
+    height: 25px;
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: rgba(107, 255, 21, 0.863);
+
+    /* padding: 2px; */
+    /* background-color: rgba(2, 64, 134, 0.863); */
+}
+.miinput{
+    width: 192px;
+    height: 18px;
+    border-style: hidden;
+    border-radius: 5px;
+}
+.listOption{
+    width: 200px;
+    height: 20px;
+    border-style: hidden;
+    border-radius: 5px;
+
+}
+
+.listOption2{
+    width: 50px;
+    height: 18px;
+    border-style: hidden;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.listOption3{
+    width: 142px;
+    height: 20px;
+    border-style: hidden;
+    border-radius: 5px;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+    /* align-items: initial; */
+}
+
+/* lista de paises */
+
+.searchcountry{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-evenly;
+   /* justify-content: space-around; */
+   margin-bottom: 20px;
+   /* justify-items: flex-end; */
+   /* align-content: space-around; */
+   /* color: red; */
+}
+
+
+.listapaises{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    /* width: 500px; */
+    text-align: center;
+}
+
+.scrollbar{
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    width:440px;
+    height:120px;
+    /* overflow: scroll; */
+    overflow-y: scroll; /*solo eje y*/
+    background-color: rgb(0, 4, 58);
+}
+
+
+.anchoestandar{
+    width: 200px;
+}
+
+
+.contiene_input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.doslistas{
+    display: flex;
+    flex-direction: row;
+}
+.grupoform{
+    display: flex;
+    flex-direction: column;
+}
+
+.contieneBoton{
+    /* width: 500px; */
+    margin-top: 5px;
+    padding: 10px;
+    background-color:rgb(13, 41, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.titulocategorias{
+    width: 100%;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(136, 219, 116);
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+}
+.formActivity{
+    width: 100%;
+    background-color: black;
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-items: center;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.superlista{
+    width: 400px;    
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.tituloActividades{
+    width: 50%;
+    /* margin-left:20px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(68, 68, 68);
+    height: 40px;
+    color: rgb(98, 255, 98);
+    border-radius: 10px;
+    text-align: center;
+}
+.tabla{
+    width: 55%;
+    /* margin: 20px; */
+    background-color: rgb(53, 53, 53);
+    padding: 10px;
+    border-radius: 15px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containeractiv{
+    width: 715px;
+    display: flex;
+    /* text-align: center; */
+    font-size: 14px;
+}
+.nombreactividad{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(150, 150, 150);
+    align-items: center;
+    height: 30px;
+    padding-right: 5px;    
+    background-color: rgb(3, 78, 3);
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.cssactividad{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: dotted;
+    border-color: rgb(150, 150, 150);;
+    border-width: 0.1px;
+    padding-left: 5px;
+    background-color: rgb(221, 217, 217);
+    color: black;    
+}
